@@ -12,10 +12,18 @@
     align-items: center;
     cursor: pointer;
     opacity: 0;
+    border: 2px solid #0037ff;
     transition: opacity 0.3s ease-in-out;
     z-index: 20;
-  }
+}
   
-  .back-to-top-button.visible {
-    opacity: 1;
+.back-to-top-button.visible {
+    opacity: 0.9;
+}
+
+@media (max-width: 767px){
+  .back-to-top-button{
+    right: 45%;
+    bottom: 8%;
   }
+}

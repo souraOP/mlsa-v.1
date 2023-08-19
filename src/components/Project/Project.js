@@ -3,6 +3,7 @@ import { Container, Row, Col} from "react-bootstrap";
 import soura from "../../Assets/Projects/soura1.jpg";
 import subrata from "../../Assets/Projects/subratabhuin.png";
 import ankita from "../../Assets/Projects/ankita.png"
+import subhraneel from "../../Assets/Projects/Shubraneel.png";
 
 import ProjCard from "./ProjectCards";
 
@@ -24,22 +25,22 @@ function Project() {
               <ProjCard 
                 projImg = {soura}
                 projDate = "March 20 2019"
-                projTitle = "Chatbot"
-                projText = "Suourer baccha"
+                projTitle = "Techflash"
+                projText = ""
               />
             </Col>
             <Col md = {4} className="project-card">
               <ProjCard 
                   projImg = {subrata}
                   projTitle = "Chatbot"
-                  projText = "Suourer baccha"
+                  projText = ""
                 />
             </Col>
             <Col md = {4} className="project-card">
                 <ProjCard 
-                  projImg = {ankita}
+                  projImg = {subhraneel}
                   projTitle = "Chatbot"
-                  projText = "Suourer baccha"
+                  projText = ""
                 />
             </Col>
 

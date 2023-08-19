@@ -36,7 +36,7 @@ function Team() {
 
       <Container>
         <h1 >
-          <span style={{fontWeight: "500", fontSize: "2em", color: "white"}}>Our </span>
+          <span style={{fontWeight: "500", fontSize: "2em", color: "white"}} className = "phoneScreenWidth">Our </span>
           <span className="team-heading"><strong className="purple">Team</strong></span>
           <span style={{fontWeight: "500", fontSize: "2em"}}> 🚀</span>
           
