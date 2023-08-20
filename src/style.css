@@ -25,7 +25,15 @@ html {
     rgb(0, 0, 0)
   );
 
+  
+
   --imp-text-color: #5aa2f4;
+}
+
+
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .purple {
@@ -281,6 +289,7 @@ button:focus {
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/MicrosoftPage.png);
   background-position: top center;
+  min-height: 100vh !important;
 
   background-repeat:repeat;
   padding-bottom: 30px !important;
@@ -378,7 +387,7 @@ button:focus {
   padding: 50px !important;
 
 /* This controls the blurring effect*/
-  backdrop-filter: blur( 2.5rem );
+  backdrop-filter: blur( 1.4rem );
   -webkit-backdrop-filter: blur( 7.5px );
 
 /*Adding the shadow*/
@@ -533,6 +542,7 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--team-background-color), url(./Assets/inspiration-geometry.png) !important;
+  min-height: 100vh !important;
 }
 
 .team-heading {
@@ -558,6 +568,8 @@ button:focus {
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
+  backdrop-filter: blur(2px) !important;
+  -webkit-backdrop-filter: blur(7.5px) !important;
   transition: all 0.5s ease 0s !important;
   height: auto !important;
 }
@@ -650,6 +662,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color), url(./Assets/cubes.png);
   color: rgb(0, 0, 0) !important;
+  min-height: 100vh !important;
 }
 
 .project-card{
@@ -832,6 +845,231 @@ button:focus {
   transition: 0.25s;
 }
 
+.nft{
+  max-width: 380px;
+  text-align: left;
+  margin: 3rem auto;
+  border: 1px solid #8885855f;
+
+  background-color: #282c34f1;
+  background: linear-gradient(0deg, rgba(40, 44, 52, 0.336) 0%, rgba(17, 0, 32, 0.171) 100%);
+
+  box-shadow: 0 7px 20px 5px #57424288;
+  border-radius: .7rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  backdrop-filter: blur(1.5px) !important;
+  -webkit-backdrop-filter: blur(2px) !important;
+  color: white;
+  overflow: hidden;
+  transition: .5s all;
+}
+
+.nft ins{
+  text-decoration: none;
+}
+.nft hr{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #02020255;
+  margin-top: 0;
+}
+
+.nft .main-card .tokenImage{
+  border-radius: 0.6rem;
+  max-width: 100%;
+  height: 250px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+.nft .main-card .proj-description{
+  margin: 1rem 0 !important;
+  color: #a89ec9;
+}
+.nft .main-card .tokenInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nft .main-card .tokenInfo .price{
+  align-items: center;
+  color: #2c6afb;
+  font-weight: 700;
+  
+}
+.nft .main-card .tokenInfo .price ins{
+  margin-left: -.1rem;
+  margin-right: .4rem;
+}
+
+.nft .main-card .tokenInfo .duration{
+  display: flex;
+  align-items: center;
+  color: #a89ec9;
+  margin-right: .2rem;
+}
+.nft .main-card .tokenInfo .duration ins{
+  margin: 0.5rem !important;
+}
+
+.nft .main-card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+}
+
+.nft .main-card .creator{
+  display: flex;
+  align-items: center;
+  margin-top: .2rem;
+  margin-bottom: -.3rem;
+}
+
+.nft .main-card .creator ins{
+  color: #a89ec9;
+  text-decoration: none;
+}
+.nft .main-card .creator .wrapper{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff22;
+  padding: .3rem;
+  margin: 0 0.5rem 0.75rem 0;
+
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 4px #000000aa;
+  
+}
+.nft .main-card .creator .wrapper img{
+  border-radius: 100% !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  object-fit: cover !important;
+  margin: 0;
+}
+
+.nft::before {
+  position: fixed;
+
+  content: "";
+  box-shadow: 0 0 100px 40px #ffffff7d;
+  top: -10%;
+  left: -100%;
+  transform: rotate(-45deg);
+  height: 60rem;
+  transition: .7s all;
+  
+}
+
+.nft:hover{
+  border: 1px solid #ffffff44;
+  box-shadow: 0 7px 50px 10px #000000aa;
+  transform: scale(1.05);
+  filter: brightness(1.5);
+
+}
+.nft:hover::before{
+  filter: brightness(.5);
+  top: -100%;
+  left: 200%;
+}
+
+.blob {
+  position: absolute;
+  width: 500px !important;
+  height: 500px !important;
+  background: linear-gradient(
+    180deg,
+    rgba(27, 55, 193, 0.42) 31.77%,
+    #e32d42a8 100%
+  );
+  mix-blend-mode: color-dodge;
+  -webkit-animation: move 20s infinite alternate;
+          animation: move 20s infinite alternate;
+  transition: 1s cubic-bezier(0.07, 0.8, 0.16, 1);
+  z-index: 0;
+}
+
+.blob:hover {
+  width: 500px;
+  height: 500px;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+  box-shadow:
+    inset 0 0 0 5px rgba(147, 81, 81, 0.6),
+    inset 100px 100px 0 0px #f580a3,
+    inset 200px 200px 0 0px #784ba8,
+    inset 300px 300px 0 0px #2b86c5;
+}
+
+@-webkit-keyframes move {
+  from {
+    transform: translate(-100px, -200px) rotate(-90deg);
+    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+  }
+
+  to {
+    transform: translate(800px, 100px) rotate(-10deg);
+    border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+  }
+}
+
+@keyframes move {
+  from {
+    transform: translate(-100px, -200px) rotate(-90deg);
+    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+  }
+
+  to {
+    transform: translate(800px, 100px) rotate(-10deg);
+    border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+  }
+}
+
+@media (max-width: 768px) {
+  .blob {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .blob:hover {
+    box-shadow:
+      inset 0 0 0 5px rgba(147, 81, 81, 0.6),
+      inset 25px 25px 0 0px #f580a3,
+      inset 50px 50px 0 0px #784ba8,
+      inset 75px 75px 0 0px #2b86c5;
+  }
+
+  @-webkit-keyframes move {
+    from {
+      transform: translate(-50px, -50px) rotate(-90deg);
+      border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+
+    to {
+      transform: translate(20px, 800px) rotate(-10deg);
+      border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
+  }
+
+  @keyframes move {
+    from {
+      transform: translate(-50px, -50px) rotate(-90deg);
+      border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+
+    to {
+      transform: translate(30px, 800px) rotate(-10deg);
+      border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
+  }
+}
+
+
+
+
 
 
 /* Event Page */
@@ -841,6 +1079,7 @@ button:focus {
   padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--event-background-color), url(./Assets/light-wool.png);
+  min-height: 100vh !important; 
 
 }
 

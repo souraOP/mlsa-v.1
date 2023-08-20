@@ -1,38 +1,23 @@
-// import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import TeamCard from "./TeamCard";
 import Particle from "../Particle";
 import Tilt from "react-parallax-tilt";
-import rajdeep from "../../Assets/Projects/rajdeep.png";
-import subhraneel from "../../Assets/Projects/Shubraneel.png";
-import soura from "../../Assets/Projects/soura1.jpg";
-import subrata from "../../Assets/Projects/subratabhuin.png";
-import uddipan from "../../Assets/Projects/uddipan.jpeg";
-import ankita from "../../Assets/Projects/ankita.png";
-import tanusree from "../../Assets/Projects/tanushree.png";
-import sayandip from "../../Assets/Projects/sayandip.png";
-import snehashis from "../../Assets/Projects/snehashis.jpeg";
-// import microsoftLogo from "../../Assets/Microsoft Logo2.webp";
+import rajdeep from "../../Assets/ProfilePicture/rajdeep.png";
+import subhraneel from "../../Assets/ProfilePicture/Shubraneel.png";
+import soura from "../../Assets/ProfilePicture/soura1.jpg";
+import subrata from "../../Assets/ProfilePicture/subratabhuin.png";
+import uddipan from "../../Assets/ProfilePicture/uddipan.jpeg";
+import ankita from "../../Assets/ProfilePicture/ankita.png";
+import tanusree from "../../Assets/ProfilePicture/tanushree.png";
+import sayandip from "../../Assets/ProfilePicture/sayandip.png";
+import snehashis from "../../Assets/ProfilePicture/snehashis.jpeg";
 import BackToTopButton from "../BackToTop/BackToTopButton";
-import sayon from "../../Assets/Projects/sayon.jpg";
+import sayon from "../../Assets/ProfilePicture/sayon.jpg";
 
 function Team() {
   return (
     <Container fluid className="team-section">
       <Particle />
-
-      {/* <Row>
-        <Col md = {8} className = "home-about-description">
-          <h1 style={{fontSize: "2.6em"}}>MLSA-TEAM</h1>
-          <p className="home-about-body">
-            Hi this is our MLSA Team
-          </p>
-        </Col>
-        <Col md = {4}>
-          <img src={microsoftLogo} className="img-fluid" alt="microsoftLogo" />
-          
-        </Col>
-      </Row> */}
 
       <Container>
         <h1 >
@@ -97,11 +82,6 @@ function Team() {
             />
             </Tilt>
           </Col>
-          
-
-          
-
-          
 
           <Col md={4} className="team-card">
             <Tilt>
