@@ -1,16 +1,12 @@
-
 import BackToTopButton from "../BackToTop/BackToTopButton";
-
 import $ from 'jquery';
 import React, { useEffect } from 'react';
 import 'jquery-ui-dist/jquery-ui';
 import { Container, Col, Row } from 'react-bootstrap';
 import comingSoon from "../../Assets/ComingSoon.png";
-import microsoftLogo from "../../Assets/MicrosoftPage.png";
+// import microsoftLogo from "../../Assets/MicrosoftPage.png";
 import { BsPatchQuestion } from "react-icons/bs";
 import {IoTimerOutline, IoLocationOutline} from "react-icons/io5";
-
-
 
 
 function EventPage() {
@@ -27,7 +23,6 @@ function EventPage() {
     });
   }, []);
 
-
   return (
     <Container fluid className='event-section'>
       <Container>
@@ -41,7 +36,7 @@ function EventPage() {
             <Col md = {4}>
               <ul>
                 <li><a href = "#tabs-1">Upcoming Events</a></li>
-                <li><a href = "#tabs-2">MLSA BPPIMT</a></li>
+                {/* <li><a href = "#tabs-2">MLSA BPPIMT</a></li> */}
 
               </ul>
             </Col>
@@ -50,9 +45,12 @@ function EventPage() {
                 <article id = "tabs-1">
                   <img src = {comingSoon} alt = "Coming-Soon"/>
                   <h4 style={{fontSize: "2.2rem"}}>Coming Soon..</h4>
-                  <p style={{marginBottom: "70px"}}>More events will come soon, stay tuned and make sure to subscribe to our newsletter to get the latest news about our events directly to your mail.
+                  <p style={{marginBottom: "70px"}}>"Get ready to dive into the world of technology with the Microsoft Learn Student Ambassadors at BPPIMT! Our upcoming events promise to deliver an exciting and enriching experience for all tech enthusiasts. From hands-on workshops exploring the latest in cloud computing, artificial intelligence, and web development, to insightful webinars featuring industry experts, our lineup is designed to empower students with the skills and knowledge needed to thrive in the digital age.
                   <br></br><br></br>
-                  Upcoming events are always exciting as they offer a chance to look forward to something new and interesting. Whether it's a tech event, research oriented, conference, or a coding contest as they always offer an amazing experiance. These types of events will provide an opportunity to meet new people, learn new things, and explore new places of domain. With the increasing availability of online events, students have forgotten the essence of meeting other like minded students and professional and interacting them in-person for gaining and sharing their knowledge. Hence, our Student Chapter events aim to helps student start gaining this experiance back. So whether you're looking to expand your knowledge, have some fun, or simply enjoy a new experience, our IEEE events will offer something for everyone. </p>
+                  Whether you're a beginner taking your first steps into the realm of tech or an experienced coder seeking to refine your skills, our events cater to all levels of expertise. Join us as we foster a vibrant community of learning, networking, and innovation. Collaborate with fellow students who share your passion and curiosity, and gain insights into the ever-evolving tech industry from professionals at the forefront of innovation. 
+                  <br></br> <br></br>
+                  Stay tuned for an array of engaging events that will ignite your passion for technology and open doors to endless possibilities! By participating, you'll not only enhance your technical proficiency but also expand your horizons, connect with like-minded peers, and potentially kickstart a journey towards a successful career in the tech world. Don't miss out on this opportunity to shape your future – come be a part of the Microsoft Learn Student Ambassador events at BPPIMT!"
+                  </p>
                   <Container>
                     <Row>
                       <Col md = {6}>
@@ -88,7 +86,7 @@ function EventPage() {
                 </article>
 
 
-                <article id = "tabs-2">
+                {/* <article id = "tabs-2">
                   <img src = {microsoftLogo} alt = "Coming-Soon"/>
                   <h4 style={{fontSize: "2.2rem"}}>Coming Soon..</h4>
                   <p style={{marginBottom: "70px"}}>More events will come soon, stay tuned and make sure to subscribe to our newsletter to get the latest news about our events directly to your mail.
@@ -118,7 +116,7 @@ function EventPage() {
                     </Row>
                     
                   </Container>
-                </article>
+                </article> */}
               </section>
             </Col>
                 

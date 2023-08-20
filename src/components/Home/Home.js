@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/Micro.png";
 import MicroLogo from "../../Assets/logo.png";
 import BackToTopButton from "../BackToTop/BackToTopButton";
-
-
 import Type from "./Type";
 
 function Home() {

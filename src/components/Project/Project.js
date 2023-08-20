@@ -2,12 +2,12 @@ import { Container, Row, Col} from "react-bootstrap";
 
 import soura from "../../Assets/ProfilePicture/soura1.jpg";
 import subrata from "../../Assets/ProfilePicture/subratabhuin.png";
-// import ankita from "../../Assets/ProfilePicture/ankita.png"
 import subhraneel from "../../Assets/ProfilePicture/Shubraneel.png";
 import gdriveDownloader from "../../Assets/Project/gdriveDownloader.png";
 import EmoMusic from "../../Assets/Project/EmoMusic.png";
-import ProjectCard from "./ProjectCard";
 import techflash from "../../Assets/Project/techflash.png";
+import ProjectCard from "./ProjectCard";
+import BackToTopButton from "../BackToTop/BackToTopButton";
 
 
 function Project() {
@@ -61,6 +61,7 @@ function Project() {
             
           </Row>
         </Container>
+        <BackToTopButton />
       </Container>
   );
 }
