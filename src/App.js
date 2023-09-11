@@ -39,7 +39,9 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/events" element={<EventPage />} />
         </Routes>
+   
         <Footer />
+        
       </div>
     </Router>
   );
