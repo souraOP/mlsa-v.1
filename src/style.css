@@ -55,7 +55,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
+  background-image: url(https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -287,7 +287,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/MicrosoftPage.png);
+  background-image: var(--image-gradient), url(https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/MicrosoftPage.png);
   background-position: top center;
   min-height: 100vh !important;
 
@@ -541,7 +541,7 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--team-background-color), url(./Assets/inspiration-geometry.png) !important;
+  background-image: var(--team-background-color), url(https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/inspiration-geometry.png) !important;
   min-height: 100vh !important;
 }
 
@@ -660,7 +660,7 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color), url(./Assets/cubes.png);
+  background-image: var(--section-background-color), url(https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/cubes.png);
   color: rgb(0, 0, 0) !important;
   min-height: 100vh !important;
 }
@@ -1078,7 +1078,7 @@ button:focus {
   position: relative !important;
   padding-top: 100px !important;
   padding-bottom: 30px !important;
-  background-image: var(--event-background-color), url(./Assets/light-wool.png);
+  background-image: var(--event-background-color), url(https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/light-wool.png);
   min-height: 100vh !important; 
 
 }

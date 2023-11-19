@@ -3,7 +3,7 @@ import $ from 'jquery';
 import React, { useEffect } from 'react';
 import 'jquery-ui-dist/jquery-ui';
 import { Container, Col, Row } from 'react-bootstrap';
-import comingSoon from "../../Assets/ComingSoon.png";
+
 // import microsoftLogo from "../../Assets/MicrosoftPage.png";
 import { BsPatchQuestion } from "react-icons/bs";
 import {IoTimerOutline, IoLocationOutline} from "react-icons/io5";
@@ -43,7 +43,7 @@ function EventPage() {
             <Col md = {8}>
               <section className = "tabs-content">
                 <article id = "tabs-1">
-                  <img src = {comingSoon} alt = "Coming-Soon"/>
+                  <img src = {"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/ComingSoon.png"} alt = "Coming-Soon"/>
                   <h4 style={{fontSize: "2.2rem"}}>Coming Soon..</h4>
                   <p style={{marginBottom: "70px"}}>"Get ready to dive into the world of technology with the Microsoft Learn Student Ambassadors at BPPIMT! Our upcoming events promise to deliver an exciting and enriching experience for all tech enthusiasts. From hands-on workshops exploring the latest in cloud computing, artificial intelligence, and web development, to insightful webinars featuring industry experts, our lineup is designed to empower students with the skills and knowledge needed to thrive in the digital age.
                   <br></br><br></br>

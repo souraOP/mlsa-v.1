@@ -2,17 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import TeamCard from "./TeamCard";
 import Particle from "../Particle";
 import Tilt from "react-parallax-tilt";
-import rajdeep from "../../Assets/ProfilePicture/rajdeep.png";
-import subhraneel from "../../Assets/ProfilePicture/Shubraneel.png";
-import soura from "../../Assets/ProfilePicture/soura1.jpg";
-import subrata from "../../Assets/ProfilePicture/subratabhuin.png";
-import uddipan from "../../Assets/ProfilePicture/uddipan.jpeg";
-import ankita from "../../Assets/ProfilePicture/ankita.png";
-import tanusree from "../../Assets/ProfilePicture/tanushree.png";
-import sayandip from "../../Assets/ProfilePicture/sayandip.png";
-import snehashis from "../../Assets/ProfilePicture/snehashis.jpeg";
 import BackToTopButton from "../BackToTop/BackToTopButton";
-import sayon from "../../Assets/ProfilePicture/sayon.jpg";
+
 
 function Team() {
   return (
@@ -33,7 +24,7 @@ function Team() {
           <Col md={4} className="team-card">
             <Tilt>
               <TeamCard
-                imgPath={subhraneel}
+                imgPath={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/Shubraneel.png"}
                 isBlog={false}
                 title="Subhraneel Halder"
                 description="Lead Ambassador"
@@ -47,7 +38,7 @@ function Team() {
           <Col md={4} className="team-card">
             <Tilt>
               <TeamCard
-                imgPath={subrata}
+                imgPath={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/subratabhuin.png"}
                 isBlog={false}
                 title="Subrata Bhuin"
                 description="Co-Leader"
@@ -60,7 +51,7 @@ function Team() {
           <Col md={4} className="team-card">
             <Tilt>
               <TeamCard
-                imgPath={soura}
+                imgPath={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/soura1.jpg"}
                 isBlog={false}
                 title="Sourasish Mondal"
                 description = "Web Design Lead"
@@ -73,7 +64,7 @@ function Team() {
           <Col md={4} className="team-card">
             <Tilt>
             <TeamCard
-              imgPath={uddipan}
+              imgPath={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/uddipan.jpeg"}
               isBlog={false}
               title="Uddipan Ghosh"
               description="Design Lead"
@@ -86,7 +77,7 @@ function Team() {
           <Col md={4} className="team-card">
             <Tilt>
               <TeamCard
-                imgPath={sayandip}
+                imgPath={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/sayandip.png"}
                 isBlog={false}
                 title="Sayandip Bhattacharya"
                 description="Technical Lead"
@@ -99,7 +90,7 @@ function Team() {
           <Col md={4} className="team-card">
             <Tilt>
               <TeamCard
-                imgPath={ankita}
+                imgPath={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/ankita.png"}
                 isBlog={false}
                 title="Ankita Dutta"
                 description="Treasurer"
@@ -113,7 +104,7 @@ function Team() {
           <Col md={4} className="team-card">
             <Tilt>
               <TeamCard
-                imgPath={rajdeep}
+                imgPath={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/rajdeep.png"}
                 isBlog={false}
                 title="Rajdeep Basak"
                 description="Social Media Lead"
@@ -126,7 +117,7 @@ function Team() {
           <Col md={4} className="team-card">
             <Tilt>
               <TeamCard
-                imgPath={sayon}
+                imgPath={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/sayon.png"}
                 isBlog={false}
                 title="Sayon Das"
                 description="N/A"
@@ -138,7 +129,7 @@ function Team() {
           <Col md={4} className="team-card">
             <Tilt>
               <TeamCard
-                imgPath={tanusree}
+                imgPath={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/tanushree.png"}
                 isBlog={false}
                 title="Tanushree Saha"
                 description="Outreach Lead"
@@ -150,7 +141,7 @@ function Team() {
           <Col md={4} className="team-card">
           <Tilt>
               <TeamCard
-                imgPath={snehashis}
+                imgPath={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/snehashis.jpeg"}
                 isBlog={false}
                 title="Snehashis Paul"
                 description="N/A"

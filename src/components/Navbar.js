@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -27,7 +26,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/logo.png"} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

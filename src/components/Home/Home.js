@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/Micro.png";
-import MicroLogo from "../../Assets/logo.png";
+
 import BackToTopButton from "../BackToTop/BackToTopButton";
 import Type from "./Type";
 
@@ -31,7 +30,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20}}>
               <img
-                src={homeLogo}
+                src={"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/Micro.png"}
                 alt="home pic"
                 className="myAvtar"
                 style={{ maxWidth: "500em" }}
@@ -48,15 +47,14 @@ function Home() {
               <Row > 
                 <Col md = {5}>
                   <img 
-                    src = {MicroLogo} 
+                    src = {"https://cdn.statically.io/gh/souraOP/pic_assests/main/MLSA-BPPIMT/logo.png"} 
                     style={{width: "80%", objectFit: "contain"}}
                     alt= "MLSA-Logo"
                     className = "upper-layer-img"
                   />
                 </Col>
                 <Col md = {7}  className = "card-description">
-                  <p>Led by Microsoft Learn Student Ambassadors, our technical club Microsoft Learn Student Ambassadors BPPIMT focuses on lighting a fire under zealous and spirited thinkers. Starting years back, we've been committed to serving the community. We regularly conduct events, organize workshops, technical talks, webinars, build community projects to develop young minds, and help them recognize and uncover their potential, under the esteemed name of the organization, to carry forth and express its legacy.
-                  </p>
+                  <p>Led by Microsoft Learn Student Ambassadors, our technical club Microsoft Learn Student Ambassadors BPPIMT focuses on lighting a fire under zealous and spirited thinkers. Starting years back, we've been committed to serving the community. We regularly conduct events, organize workshops, technical talks, webinars, build community projects to develop young minds, and help them recognize and uncover their potential, under the esteemed name of the organization, to carry forth and express its legacy.</p>
                 </Col>
               </Row>
             </div>
